@@ -153,12 +153,6 @@ const AlgorithmsPage: React.FC = () => {
                   <li>{t('algorithm_concept_update_step')}</li>
                   <li>{t('algorithm_concept_inertia')}</li>
                 </ul>
-                <li>K: Oluşturulacak küme sayısı (algoritma çalıştırılmadan önce belirlenmelidir).</li>
-                <li>Centroid (Küme Merkezi): Her kümenin merkezini temsil eden nokta.</li>
-                <li>Atama Adımı (Assignment Step): Her veri noktasının en yakın centroid'e atandığı adım.</li>
-                <li>Güncelleme Adımı (Update Step): Her centroid'in atandığı noktaların ortalamasına göre yeniden hesaplandığı adım.</li>
-                <li>Inertia: Küme içi toplam kareler mesafesi (centroid'e olan uzaklıkların karelerinin toplamı).</li>
-                </ul>
               </div>
               <div id="kmeans-clustering-principle">
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-2">{t('principle_title')}</h3>
